@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegisterWindow</class>
+ <widget class="QMainWindow" name="RegisterWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>556</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Registro1">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>10</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>18</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 700 18pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Página de registro.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Registro2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>40</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ingresa los siguientes dato:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Boton_crear_cuenta">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>460</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>14</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+/* Estilos base para el botón */
+QPushButton{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(18, 44, 219);
+  color: white;
+  border: none;
+  border-radius: 20px; /* Bordes redondeados */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Sombra de fondo */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Animación de cambio de color */
+}
+
+/* Estilo para el botón cuando el cursor está sobre él */
+QPushButton:hover {
+  background-color: rgb(12, 33, 162); /* Color más oscuro al pasar el cursor */
+}</string>
+    </property>
+    <property name="text">
+     <string>Crear cuenta</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Nombre">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+    <property name="placeholderText">
+     <string> Nombre</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Apellidos">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>130</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+    <property name="placeholderText">
+     <string> Apellidos</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Email">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>250</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+    <property name="placeholderText">
+     <string> Email</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Password1">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>290</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="cursorPosition">
+     <number>0</number>
+    </property>
+    <property name="placeholderText">
+     <string> Contraseña</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Password2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>330</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string> Repite tu contraseña</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Fechadenacimiento">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>170</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string> Fecha de nacimineto dd/mm/aaa</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Telefono">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>210</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string> Teléfono</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Error">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>390</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{color: rgb(255, 27, 31)}
+font: 13pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Regresar">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>481</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+/* Estilos base para el botón */
+QPushButton{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: none;
+  color: blue;
+  border: none;
+  border-radius: 20px; /* Bordes redondeados */
+  cursor: pointer;
+  transition:color 0.3s; /* Animación de cambio de color */
+}
+
+QPushButton:hover {
+  color: rgb(5, 125, 245); /* Color más oscuro al pasar el cursor */
+}</string>
+    </property>
+    <property name="text">
+     <string>Regresar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>556</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

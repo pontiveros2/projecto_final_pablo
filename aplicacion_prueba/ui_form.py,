@@ -1,0 +1,139 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'form.ui'
+##
+## Created by: Qt User Interface Compiler version 6.7.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QLabel, QLineEdit, QMainWindow,
+    QMenuBar, QPushButton, QSizePolicy, QStatusBar,
+    QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(491, 554)
+        font = QFont()
+        font.setFamilies([u"Arial"])
+        font.setPointSize(18)
+        font.setBold(True)
+        font.setItalic(False)
+        font.setKerning(True)
+        MainWindow.setFont(font)
+        MainWindow.setStyleSheet(u"")
+        MainWindow.setLocale(QLocale(QLocale.Spanish, QLocale.Mexico))
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.Boton_inicio = QPushButton(self.centralwidget)
+        self.Boton_inicio.setObjectName(u"Boton_inicio")
+        self.Boton_inicio.setGeometry(QRect(170, 270, 151, 41))
+        font1 = QFont()
+        font1.setFamilies([u"Arial"])
+        font1.setPointSize(14)
+        font1.setBold(False)
+        font1.setItalic(False)
+        font1.setKerning(True)
+        self.Boton_inicio.setFont(font1)
+        self.Boton_inicio.setStyleSheet(u"\n"
+"/* Estilos base para el bot\u00f3n */\n"
+"QPushButton{\n"
+"  display: inline-block;\n"
+"  padding: 10px 20px;\n"
+"  background-color: rgb(18, 44, 219);\n"
+"  color: white;\n"
+"  border: none;\n"
+"  border-radius: 20px; /* Bordes redondeados */\n"
+"  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Sombra de fondo */\n"
+"  cursor: pointer;\n"
+"  transition: background-color 0.3s; /* Animaci\u00f3n de cambio de color */\n"
+"}\n"
+"\n"
+"/* Estilo para el bot\u00f3n cuando el cursor est\u00e1 sobre \u00e9l */\n"
+"QPushButton:hover {\n"
+"  background-color: rgb(12, 33, 162); /* Color m\u00e1s oscuro al pasar el cursor */\n"
+"}")
+        self.Label_inicio = QLabel(self.centralwidget)
+        self.Label_inicio.setObjectName(u"Label_inicio")
+        self.Label_inicio.setGeometry(QRect(130, 130, 221, 31))
+        font2 = QFont()
+        font2.setFamilies([u"Arial"])
+        font2.setPointSize(18)
+        font2.setBold(False)
+        font2.setItalic(False)
+        font2.setKerning(True)
+        self.Label_inicio.setFont(font2)
+        self.Label_inicio.setAlignment(Qt.AlignCenter)
+        self.Ingreso_nombre = QLineEdit(self.centralwidget)
+        self.Ingreso_nombre.setObjectName(u"Ingreso_nombre")
+        self.Ingreso_nombre.setGeometry(QRect(130, 170, 221, 31))
+        font3 = QFont()
+        font3.setFamilies([u"Arial"])
+        font3.setPointSize(13)
+        font3.setBold(False)
+        font3.setItalic(False)
+        font3.setKerning(True)
+        self.Ingreso_nombre.setFont(font3)
+        self.Ingreso_nombre.setMaxLength(100)
+        self.Ingreso_nombre.setCursorPosition(0)
+        self.Ingreso_pass = QLineEdit(self.centralwidget)
+        self.Ingreso_pass.setObjectName(u"Ingreso_pass")
+        self.Ingreso_pass.setGeometry(QRect(130, 220, 221, 31))
+        self.Ingreso_pass.setFont(font3)
+        self.Ingreso_pass.setMaxLength(100)
+        self.Ingreso_pass.setEchoMode(QLineEdit.Password)
+        self.Ingreso_pass.setCursorPosition(0)
+        self.Texto_salida = QLabel(self.centralwidget)
+        self.Texto_salida.setObjectName(u"Texto_salida")
+        self.Texto_salida.setGeometry(QRect(50, 370, 391, 20))
+        self.Texto_salida.setFont(font2)
+        self.Texto_salida.setStyleSheet(u"Qlabel[\n"
+"	font:12pt:\"Silka Banner\";\n"
+"	color:rgb(225,0,0)\n"
+"]")
+        self.Texto_salida.setAlignment(Qt.AlignCenter)
+        self.No_cuenta = QLabel(self.centralwidget)
+        self.No_cuenta.setObjectName(u"No_cuenta")
+        self.No_cuenta.setGeometry(QRect(130, 430, 191, 16))
+        self.No_cuenta.setStyleSheet(u"font: 13pt \"Academy Engraved LET\";")
+        self.Boton_registro = QPushButton(self.centralwidget)
+        self.Boton_registro.setObjectName(u"Boton_registro")
+        self.Boton_registro.setGeometry(QRect(250, 420, 100, 32))
+        self.Boton_registro.setStyleSheet(u"font: 14pt \"Arial\";")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 491, 24))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.Boton_inicio.setText(QCoreApplication.translate("MainWindow", u"Iniciar sisi\u00f3n", None))
+        self.Label_inicio.setText(QCoreApplication.translate("MainWindow", u"Ingresa tus datos de Iinicio", None))
+        self.Ingreso_nombre.setText("")
+        self.Ingreso_nombre.setPlaceholderText(QCoreApplication.translate("MainWindow", u" Usuario", None))
+        self.Ingreso_pass.setText("")
+        self.Ingreso_pass.setPlaceholderText(QCoreApplication.translate("MainWindow", u" Contrase\u00f1a", None))
+        self.Texto_salida.setText("")
+        self.No_cuenta.setText(QCoreApplication.translate("MainWindow", u"\u00bfNo tienes Cuenta?", None))
+        self.Boton_registro.setText(QCoreApplication.translate("MainWindow", u"Registrate", None))
+    # retranslateUi
+

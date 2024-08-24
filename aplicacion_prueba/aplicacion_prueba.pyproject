@@ -1,0 +1,12 @@
+{
+    "files": [
+        "mainwindow.py",
+        "form.ui",
+        "register.ui",
+        "register.py",
+        "home.py",
+        "home.ui",
+        "routes.py",
+        "helpers.py"
+    ]
+}

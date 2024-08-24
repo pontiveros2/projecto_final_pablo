@@ -1,0 +1,126 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'register.ui'
+##
+## Created by: Qt User Interface Compiler version 6.7.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QLabel, QLineEdit, QMainWindow,
+    QMenuBar, QPushButton, QSizePolicy, QStatusBar,
+    QWidget)
+
+class Ui_RegisterWindow(object):
+    def setupUi(self, RegisterWindow):
+        if not RegisterWindow.objectName():
+            RegisterWindow.setObjectName(u"RegisterWindow")
+        RegisterWindow.resize(567, 600)
+        self.centralwidget = QWidget(RegisterWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.label = QLabel(self.centralwidget)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(160, 10, 251, 51))
+        font = QFont()
+        font.setFamilies([u"Arial"])
+        font.setPointSize(16)
+        self.label.setFont(font)
+        self.label_2 = QLabel(self.centralwidget)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(160, 30, 211, 51))
+        self.label_2.setFont(font)
+        self.Boton_inicio = QPushButton(self.centralwidget)
+        self.Boton_inicio.setObjectName(u"Boton_inicio")
+        self.Boton_inicio.setGeometry(QRect(190, 390, 151, 41))
+        font1 = QFont()
+        font1.setFamilies([u"Arial"])
+        font1.setPointSize(14)
+        font1.setBold(False)
+        font1.setItalic(False)
+        font1.setKerning(True)
+        self.Boton_inicio.setFont(font1)
+        self.Boton_inicio.setStyleSheet(u"\n"
+"/* Estilos base para el bot\u00f3n */\n"
+"QPushButton{\n"
+"  display: inline-block;\n"
+"  padding: 10px 20px;\n"
+"  background-color: rgb(18, 44, 219);\n"
+"  color: white;\n"
+"  border: none;\n"
+"  border-radius: 20px; /* Bordes redondeados */\n"
+"  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Sombra de fondo */\n"
+"  cursor: pointer;\n"
+"  transition: background-color 0.3s; /* Animaci\u00f3n de cambio de color */\n"
+"}\n"
+"\n"
+"/* Estilo para el bot\u00f3n cuando el cursor est\u00e1 sobre \u00e9l */\n"
+"QPushButton:hover {\n"
+"  background-color: rgb(12, 33, 162); /* Color m\u00e1s oscuro al pasar el cursor */\n"
+"}")
+        self.Nombre = QLineEdit(self.centralwidget)
+        self.Nombre.setObjectName(u"Nombre")
+        self.Nombre.setGeometry(QRect(160, 90, 241, 31))
+        self.Nombre.setCursorPosition(0)
+        self.Apellidos = QLineEdit(self.centralwidget)
+        self.Apellidos.setObjectName(u"Apellidos")
+        self.Apellidos.setGeometry(QRect(160, 130, 241, 31))
+        self.Apellidos.setCursorPosition(0)
+        self.Email = QLineEdit(self.centralwidget)
+        self.Email.setObjectName(u"Email")
+        self.Email.setGeometry(QRect(160, 250, 241, 31))
+        self.Email.setCursorPosition(0)
+        self.Password1 = QLineEdit(self.centralwidget)
+        self.Password1.setObjectName(u"Password1")
+        self.Password1.setGeometry(QRect(160, 290, 241, 31))
+        self.Password1.setEchoMode(QLineEdit.Password)
+        self.Password1.setCursorPosition(0)
+        self.Pasword2 = QLineEdit(self.centralwidget)
+        self.Pasword2.setObjectName(u"Pasword2")
+        self.Pasword2.setGeometry(QRect(160, 330, 241, 31))
+        self.Pasword2.setEchoMode(QLineEdit.Password)
+        self.Fechadenacimiento = QLineEdit(self.centralwidget)
+        self.Fechadenacimiento.setObjectName(u"Fechadenacimiento")
+        self.Fechadenacimiento.setGeometry(QRect(160, 170, 241, 31))
+        self.lineEdit = QLineEdit(self.centralwidget)
+        self.lineEdit.setObjectName(u"lineEdit")
+        self.lineEdit.setGeometry(QRect(160, 210, 241, 31))
+        RegisterWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(RegisterWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 567, 24))
+        RegisterWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(RegisterWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        RegisterWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(RegisterWindow)
+
+        QMetaObject.connectSlotsByName(RegisterWindow)
+    # setupUi
+
+    def retranslateUi(self, RegisterWindow):
+        RegisterWindow.setWindowTitle(QCoreApplication.translate("RegisterWindow", u"MainWindow", None))
+        self.label.setText(QCoreApplication.translate("RegisterWindow", u"Bienvenido a la p\u00e1gina de registro.", None))
+        self.label_2.setText(QCoreApplication.translate("RegisterWindow", u"Ingresalos siguientes dato:", None))
+        self.Boton_inicio.setText(QCoreApplication.translate("RegisterWindow", u"Regitrame", None))
+        self.Nombre.setText("")
+        self.Nombre.setPlaceholderText(QCoreApplication.translate("RegisterWindow", u" Nombre", None))
+        self.Apellidos.setText("")
+        self.Apellidos.setPlaceholderText(QCoreApplication.translate("RegisterWindow", u" Apellidos", None))
+        self.Email.setText("")
+        self.Email.setPlaceholderText(QCoreApplication.translate("RegisterWindow", u" Email", None))
+        self.Password1.setText("")
+        self.Password1.setPlaceholderText(QCoreApplication.translate("RegisterWindow", u" Contrase\u00f1a", None))
+        self.Pasword2.setPlaceholderText(QCoreApplication.translate("RegisterWindow", u" Repite tu contrase\u00f1a", None))
+        self.Fechadenacimiento.setPlaceholderText(QCoreApplication.translate("RegisterWindow", u" Fecha de Nacimineto dd/mm/aaa", None))
+        self.lineEdit.setPlaceholderText(QCoreApplication.translate("RegisterWindow", u" Tel\u00e9fono", None))
+    # retranslateUi
+
